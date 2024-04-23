@@ -1,6 +1,6 @@
 # Home Assistant Add-on: SMTP2MQTT
 
-Turns Home Assistent into an SMTP server, publishes messages (email) to an MQTT broker.
+Turns Home Assistent into an SMTP server, publishes messages (email) to an MQTT broker.update to bytes
 
 *The original source for this came from the [wicol/emqtt] project on github
 
