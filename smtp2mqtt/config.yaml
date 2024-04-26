@@ -1,7 +1,7 @@
 ---
 name: "SMTP to MQTT"
 description: "A simple, tiny, absolutely no-frills Python-based SMTP server that publishes mail to an MQTT topic then (optionally) passes the mail on to the next relay"
-url: "https://github.com/MapiRafa/addons"
+url: "https://github.com/bcastellucci/addons"
 version: "1.0.3"
 slug: "smtp2mqtt"
 arch:
@@ -10,7 +10,7 @@ arch:
   - armhf
   - armv7
   - i386
-#image: "MapiRafa/image-{arch}-smtp2mqtt"
+image: "bcastellucci/image-{arch}-smtp2mqtt"
 startup: application
 boot: auto
 map:
