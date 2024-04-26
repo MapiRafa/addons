@@ -124,7 +124,7 @@ class SMTP2MQTTHandler:
                 file_path = os.path.join(config["SAVE_ATTACHMENTS_DIR"], filename)
                 log.info("Saving attachment to %s", file_path, extra=log_extra)
                 with open(file_path, "wb") as f:
-                    f.write(attachment.get_content.encode())
+                    f.write(attachment.get_content().encode())
                 # note the file name in the payload
                 _mime_part['saved_file_name'] = file_path
             else:
